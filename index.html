@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Danfo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss-animated@1.1.2/src/index.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="flex fixed top-0 z-[999] bg-white w-full items-center justify-between border border-b px-10 py-4 shadow-lg text-[#494949] text-[15px]"
+    >
+      <div>CORDILLERA</div>
+      <div class="flex gap-4">
+        <p>Home</p>
+        <p>Equipment</p>
+        <p>About us</p>
+        <p>Hike</p>
+      </div>
+      <div>Account</div>
+    </nav>
 
-    <title>link-pages</title>
-    <style>
-        *{box-sizing: border-box;margin:0px;}
-        /* #home{width:100%;height:100vh;background-color: aqua;font-size: 5rem;display: flex;justify-content: center;align-items: center;text-transform: capitalize;}
-        #About{width:100%;height:100vh;background-color:bisque;font-size: 5rem;display: flex;justify-content: center;align-items: center;}
-        #services{width: 100%;height: 100vh;background-color: aquamarine;font-size: 5rem;display: flex;justify-content: center;align-items: center;}
-        #Contact{width: 100%;height: 100vh;background-color: beige;font-size: 5rem;display: flex;justify-content: center;align-items: center;} */
-        .section-block{width:100%;height:100vh;font-size: 5rem;display: flex;justify-content: center;align-items: center;text-transform: capitalize;}
-        #menu-bar{width:100%;height:20vh;font-size: 1.5rem;display: flex;justify-content: space-between;align-items: center;text-transform: capitalize;position: fixed; background-color: yellowgreen;} 
-
-        .menu-items{display:flex; justify-content: space-evenly;align-items: center; width:80%;}
-        .menu-items a{text-decoration: none ;}
-        .bg-primary{
-            background-color: antiquewhite;
-        }
-        .bg-secondary{
-            background-color: aquamarine;
-        }
-        .bg-territory{
-            background-color: bisque;
-        }
-    </style>
-</head>
-<body>
-    <header id="menu-bar">
-        <div>logo</div>
-        <div class="menu-items">
-            <a href="#home">Home</a> <a href="#about">About</a> <a href="#services">Services</a> <a href="#contact">Contact</a>
-        </div>
-    </header>
-  <section id="home" class="section-block bg-primary" >
-    home
-  </section>  
-  <section id="about" class="section-block bg-secondary">
-    About
-  </section>
-  <section id="services" class="section-block bg-primary">
-    <div>Services</div>
-    <div>Services</div>
-    <div>Services</div>
-    <div>Services</div>
+    <section
+      class="bg-[url('/newimage/wide-shot-river-going-through-forest-mountains-captured-kauai-hawaii.jpg')] bg-cover w-full h-screen relative flex flex-col justify-center items-center bg-no-repeat py-10 px-10"
+    >
+      <div class="absolute mt-32 text-center">
+        <p class="text-[#ffff] text-base text-start">A HIKING GUIDE</p>
+        <p class="text-[#ffd372] font-black text-3xl text-start">
+         Be Prepared For The
+         <p class="text-[#ffd372] font-black text-3xl "> Mountains And Beyond!</p>
+        </p>
+        <button class="w-[150px] py-0.5 px-0.5 rounded-3xl font-medium bg-transparent hover:bg-[#ffd372] border text-[#ffff] text-sm">start your journey</button>
+      </div>
     </section>
-    <section id="contact" class="section-block bg-territory">
-        Contact
-        </section>
-</body>
+    <section class="flex gap-20 px-10 py-10 mt-10">
+    <div>
+      <img src="/newimage/friends-sitting-rock-nature.jpg" class="w-[3000px]" alt="">
+    </div>
+    <div>
+      <h1 class="text-3xl">What level of hiker<br> are you?</h1>
+   <p class="mt-3 mb-3"> Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you novice, moderate, advanced moderate, expert, or expert backpacker?
+   </p>
+   <button class="px-3 py-1 text-sm border rounded-3xl">Read more</button>
+  </div>
+  </section>
+  <section>
+    bg-[url('/newimage/wide-shot-river-going-through-forest-mountains-captured-kauai-hawaii.jpg')] 
+  </section>
+  </body>
 </html>
